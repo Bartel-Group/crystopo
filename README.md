@@ -162,3 +162,14 @@ Available descriptor types:
 - `skipatom`
 - `matminer`
 - `chgnet`
+
+To use these benchmarks, you must first download the necessary assets:
+
+```bash
+mkdir crystopo/data
+cd crystopo/data
+
+curl -L -o 2023-12-03-mace-128-L1_epoch-199.model https://github.com/Bartel-Group/crystopo/releases/download/v1.0.0/2023-12-03-mace-128-L1_epoch-199.model
+curl -L -o mp_2020_10_09.dim200.model https://github.com/Bartel-Group/crystopo/releases/download/v1.0.0/mp_2020_10_09.dim200.model
+curl -L -o mp_2020_10_09.training.data https://github.com/Bartel-Group/crystopo/releases/download/v1.0.0/mp_2020_10_09.training.data
+```
