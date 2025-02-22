@@ -1,9 +1,9 @@
 # CrysTopo
-A toolkit for analyzing DFT-computed charge densities using persistent homology and machine learning.
+A toolkit for analyzing DFT-computed electron densities using persistent homology and machine learning.
 
 ## What is CrysTopo?
 CrysTopo is a Python package that combines crystallographic topology analysis with machine learning to:
-- Generate Betti curves from crystal structures and charge densities
+- Generate Betti curves from crystal structures and electron densities
 - Classify materials by structure type, metal/insulator properties, and thermodynamic stability
 - Create spectral embeddings for material analysis
 
