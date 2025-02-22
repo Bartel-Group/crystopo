@@ -1,0 +1,8 @@
+{
+    "task": "betti_calculation",
+    "method": "local_files",
+    "structure_files": ["Examples/Structures/CdTe_mp-406.cif"],
+    "charge_density_files": ["Examples/Charge-Densities/CdTe_mp-406.pickle"],
+    "output_dir": "output/betti_curves",
+    "visualize": true
+}
