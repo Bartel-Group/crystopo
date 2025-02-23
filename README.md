@@ -26,9 +26,7 @@ For features that require data from the Materials Project (MP), you'll need to i
 2. Going to your dashboard and copying your API key
 3. Including it in your configuration file as `"mp_api_key": "YOUR_API_KEY_HERE"`
 
-The API key is required for:
-- Any tasks using the "mp_ids" or "mp_query" methods
-- Stability classification (except when using local files)
+The API key is required for any tasks using the "mp_ids" or "mp_query" methods.
 
 ## Quick Start
 CrysTopo uses JSON configuration files to control its operations. To run an analysis:
