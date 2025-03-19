@@ -7,6 +7,8 @@ CrysTopo is a Python package that combines crystallographic topology analysis wi
 - Classify materials by structure type, metal/insulator properties, and thermodynamic stability
 - Create spectral embeddings for material analysis
 
+Details can be found in our [preprint on arXiv](https://arxiv.org/abs/2502.16379).
+
 ## Installation
 1. Clone the repository:
 ```bash
@@ -170,4 +172,18 @@ cd crystopo/data
 curl -L -o 2023-12-03-mace-128-L1_epoch-199.model https://github.com/Bartel-Group/crystopo/releases/download/v1.0.0/2023-12-03-mace-128-L1_epoch-199.model
 curl -L -o mp_2020_10_09.dim200.model https://github.com/Bartel-Group/crystopo/releases/download/v1.0.0/mp_2020_10_09.dim200.model
 curl -L -o mp_2020_10_09.training.data https://github.com/Bartel-Group/crystopo/releases/download/v1.0.0/mp_2020_10_09.training.data
+```
+
+## How to Cite
+
+If you use this code, please consider citing the below paper (available on [arXiv](https://arxiv.org/abs/2502.16379)):
+
+```bibtex
+@article{szymanski_2025_crystopo,
+    title={Topological descriptors for the electron density of inorganic solids},
+    DOI={arXiv:2502.16379},
+    journal={arXiv},
+    author={Szymanski, Nathan J. and Smith, Alex and Prodromos Daoutidis and Bartel, Christopher J.},
+    year={2025}
+}
 ```
