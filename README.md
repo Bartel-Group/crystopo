@@ -12,7 +12,7 @@ Details can be found in our [preprint on arXiv](https://arxiv.org/abs/2502.16379
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.umn.edu/bartel-group/crystopo.git
+git clone https://github.com/Bartel-Group/crystopo.git
 cd crystopo
 ```
 
